@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+  <audio id="myAudio" controls autoplay>
+    <source src="https://drive.google.com/uc?export=download&id=1H-rCll_jHS6u6PtlTd3pUtbG9hizbcdP" type="audio/mpeg">
+    آپ کا براؤزر آڈیو فائل کو سپورٹ نہیں کرتا۔
+  </audio>
+
+  <script>
+    document.addEventListener('click', function() {
+      var audio = document.getElementById('myAudio');
+      if (audio.paused) {
+        audio.play();
+      }
+    });
+  </script>
+</body>
+</html>
